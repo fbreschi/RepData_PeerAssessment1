@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 output: 
-  html_document:
+  html_document: PA1_template.html
   keep_md: true
 ---
 
@@ -129,7 +129,7 @@ output:
 
 #### (7) What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
-*The main impact is about influencing the total number of steps (see histograms). As we are introducing mean values on the time intervals as fillers, the qualitative behaviour of the Histogram is not impacted*
+*The main impact is about influencing the total number of steps (see histograms). As we are introducing mean values on the time intervals as fillers, the qualitative behaviour of the Histogram is not impacted. Noticeable is the fact that the ```median()``` corresponds to the ```mean()```, because of the correspondence of a ```NA``` substituted value positionally as the ```median()``` algorithm demands for an ordered list of values.*
 
 ### Are there differences in activity patterns between weekdays and weekends?
 
